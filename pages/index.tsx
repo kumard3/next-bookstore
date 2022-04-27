@@ -47,8 +47,8 @@ export default function Home() {
   }
   console.log(bookTitle, bookAuthor, bookGenre)
   return (
-    <div className="w-full min-h-screen">
-      <div className="flex justify-center bg-black text-white items-center ">
+    <div className="w-full min-h-screen bg-black text-white">
+      <div className="flex justify-center  items-center ">
         <form action="#" method="POST">
           <div className=" my-6">
             <label
